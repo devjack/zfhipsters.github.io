@@ -1,49 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <title>ZF Hipsters</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="description" content="ZF Hipsters">
+    <meta name="author" content="sydnerdrage">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="zfhipsters : The hipster way" />
+    <!-- Load bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <!-- Load pixels -->
+    <!-- <link href="css/the-story.min.css" rel="stylesheet" media="screen">-->
+    <link href="css/zfhipsters.css" rel="stylesheet" media="screen">
 
-    <title>zfhipsters</title>
-  </head>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
 
-  <body>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/sydnerdrage/zfhipsters.github.io">View on GitHub</a>
+<!-- activate scrollspy -->
 
-          <h1 id="project_title">zfhipsters</h1>
-          <h2 id="project_tagline">The hipster way</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/sydnerdrage/zfhipsters.github.io/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/sydnerdrage/zfhipsters.github.io/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+<body>
+<!-- Home Page -->
+<div class="container">
+    <div>
+        <h1 class="title">zfhipsters</h1>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>We're a bunch of devs doing ZF2 the hipster way.</p>
-      </section>
+    <div class="row">
+        <div class="col-md-8 col-md-push-4">
+            <img class="lazy" alt="Hipsterphant" src="images/hipsterphant.jpeg"/>
+        </div>
+        <div class="col-md-4 col-md-pull-8">
+            <a href="http://www.github.com/zf-hipsters" class="github">
+            <i class="icon-github "></i>
+                </a>
+            <ul class="big-list">
+                <li><i class="icon-tick"></i> Because its cool</li>
+                <li><i class="icon-tick"></i> Because its better</li>
+                <li><i class="icon-tick"></i> Because we can</li>
+            </ul>
+            <br />
+        </div>
     </div>
+</div> <!-- /#home -->
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">zfhipsters maintained by <a href="https://github.com/sydnerdrage">sydnerdrage</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    if (typeof jQuery == 'undefined') {
+        document.write(unescape("%3Cscript src='js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+</script>
+</body>
 </html>
